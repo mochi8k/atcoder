@@ -1,7 +1,7 @@
 function main(input) {
-    const splitedTexts = input.split(/\s/);
-    const a = parseInt(splitedTexts[0], 10);
-    const b = parseInt(splitedTexts[1], 10);
+    const args = input.split(/\s/);
+    const a = parseInt(args[0], 10);
+    const b = parseInt(args[1], 10);
 
     if ((a * b) % 2 === 0) {
         console.log('Even');

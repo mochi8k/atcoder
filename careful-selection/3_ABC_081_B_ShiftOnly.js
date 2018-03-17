@@ -1,5 +1,5 @@
 function main(input) {
-    var nums = input.split('\n')[1].split(' ');
+    var nums = input.split('\n')[1].split(' ').map((n) => parseInt(n, 10));
 
     var count = 0;
     while(nums.every((n) => (n % 2) === 0)) {
