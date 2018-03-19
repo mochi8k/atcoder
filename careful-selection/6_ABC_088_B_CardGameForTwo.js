@@ -1,5 +1,5 @@
 function main(input) {
-    const args = input.split(/\n/);
+    const args = input.split('\n');
     const N = parseInt(args[0], 10),
           cards = args[1].split(' ').map(n => parseInt(n, 10));
 

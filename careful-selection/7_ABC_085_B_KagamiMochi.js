@@ -1,5 +1,5 @@
 function main(input) {
-    const args = input.split(/\n/);
+    const args = input.split('\n');
     const N = args[0],
           nums = args.slice(1, args.length - 1);
     

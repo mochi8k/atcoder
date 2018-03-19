@@ -1,5 +1,5 @@
 function main(input) {
-    const args = input.split(/\s/);
+    const args = input.split(' ');
     const a = parseInt(args[0], 10);
     const b = parseInt(args[1], 10);
 
